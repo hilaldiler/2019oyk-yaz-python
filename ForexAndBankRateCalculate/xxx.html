@@ -1,0 +1,1054 @@
+<!doctype html><!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""><![endif]--><!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""><![endif]--><!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""><![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js" lang="tr">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript">
+        window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4ef36cdb36","applicationID":"40648489","transactionName":"NV1RZ0tXW0QAAEZfCQwXfmV6GXxZBwxAWwcWUVxdellbQxMMXloDEBd/XFhYfFkVBkBTFRZqUkdcf1tTBBs=","queueTime":0,"applicationTime":465,"agent":"","atts":""}
+    </script>
+    <script type="text/javascript">
+        window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);
+    </script>
+    <title>Kredi Faiz Oranları 01 Ağustos 2019</title>
+    <meta name="Description"
+          content="Güncel Kredi Faiz Oranları &#10004; Bankaların Konut, İhtiyaç ve Taşıt Kredisi Faizleri &#10004; En Uygun Banka Kredi Faiz Oranları &#10004; 2019 Kredi Faiz Değerlendirmesi…"/>
+    <meta name="Keywords"
+          content="G&#252;ncel Kredi Faiz Oranları &amp;#10004; Bankaların Konut, İhtiya&#231; ve Taşıt Kredisi Faizleri &amp;#10004; En Uygun Banka Kredi Faiz Oranları &amp;#10004; 2019 Kredi Faiz Değerlendirmesi…"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta property="fb:app_id" content="1661288800813836"/>
+    <meta property="fb:admins" content="ibrhim.colak"/>
+    <meta name="google-site-verification" content="relqFc60Usxclu82Eb9YAyi2sWqGJZnuWB7FTbaH3_U"/>
+    <meta name="google-play-app" content="app-id=com.hesapkurdu">
+    <meta name="apple-itunes-app" content="app-id=1293671036">
+    <link rel="android-touch-icon" href="https://d17le0zlhc8orn.cloudfront.net/img/hesapkurdu-app.png"/>
+    <link rel="apple-touch-icon" href="https://d17le0zlhc8orn.cloudfront.net/img/hesapkurdu-app.png">
+    <meta name="Author" content="Hesapkurdu.com"/>
+    <meta name="robots" content="index,follow"/>
+    <link rel="canonical" href="https://www.hesapkurdu.com/kredi-faiz-oranlari"/>
+    <link rel="dns-prefetch" href="//s3-eu-west-1.amazonaws.com"/>
+    <link rel="dns-prefetch" href="//dosya.hesapkurdu.com"/>
+    <link rel="dns-prefetch" href="//www.googletagservices.com"/>
+    <link rel="dns-prefetch" href="//www.googletagmanager.com"/>
+    <meta property="og:title" content="Kredi Faiz Oranları 01 Ağustos 2019"/>
+    <meta property="og:description"
+          content="Güncel Kredi Faiz Oranları &#10004; Bankaların Konut, İhtiyaç ve Taşıt Kredisi Faizleri &#10004; En Uygun Banka Kredi Faiz Oranları &#10004; 2019 Kredi Faiz Değerlendirmesi…"/>
+    <meta property="og:site_name" content="hesapkurdu.com"/>
+    <meta property="og:image" content="/Content/Images/logo.png"/>
+    <meta property="og:type" content="website"/>
+    <script type="text/javascript">
+         var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var timeOut = window.dfpTimeOut || 4000; var googlePublisher = function () { var gads = document.createElement('script'); gads.async = true; gads.type = 'text/javascript'; var useSSL = 'https:' == document.location.protocol; gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js'; var node = document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(gads, node); }; setTimeout(googlePublisher, timeOut);
+    </script>
+    <script type="application/ld+json"> {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "https://www.hesapkurdu.com/",
+        "logo": "https://www.hesapkurdu.com/Content/Images/logo.png",
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+90212 911 12 12",
+                "contactType": "customer support"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/hesapkurdu",
+            "https://twitter.com/HesapKurduCom",
+            "https://www.youtube.com/c/hesapkurdu",
+            "https://plus.google.com/u/0/102278458452984919727/posts"
+        ]
+    } </script>
+    <script type='text/javascript'>
+         document.addEventListener("DOMContentLoaded", function () { googletag.cmd.push(function () { googletag.pubads().enableSingleRequest(); googletag.pubads().collapseEmptyDivs(true); googletag.enableServices(); }); }); window.onsubmit = function () { return false; }; window.addEventListener('load', function () { window.onsubmit = ''; });
+    </script>
+    <meta name="robots" content="noodp"/>
+    <link rel="manifest" href="/Assets/manifest.json">
+    <style>
+        @charset "UTF-8";*{font-family:Open Sans,sans-serif}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%}nav,section{display:block}body{margin:0;font-family:Open Sans,sans-serif;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}h1,h2{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}ul{margin-bottom:1rem}ul{margin-top:0}ul ul{margin-bottom:0}strong{font-weight:bolder}a{color:#e14c41;text-decoration:none;background-color:transparent}img{border-style:none}img{vertical-align:middle}button{border-radius:0}button{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button{overflow:visible}button{text-transform:none}[type=button],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}.hk-icon--arrow-down:before,.hk-icon--award:before,.hk-icon--bank:before,.hk-icon--banknot:before,.hk-icon--bars:before,.hk-icon--bill:before,.hk-icon--build:before,.hk-icon--calculate-separated:before,.hk-icon--car:before,.hk-icon--certificate:before,.hk-icon--credit-card:before,.hk-icon--credit:before,.hk-icon--earthquake:before,.hk-icon--energy-company:before,.hk-icon--home-banknot:before,.hk-icon--home-umbrella:before,.hk-icon--home:before,.hk-icon--left:before,.hk-icon--plane-world:before,.hk-icon--save-money:before,.hk-icon--store:before,.hk-icon--times:before,.hk-icon--traffic-lamb:before,.hk-icon--umbrella:before{font-family:hk-font-icon;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;text-transform:none}.hk-icon--1-5x{font-size:1.5em}.hk-icon--2x{font-size:2em}.hk-icon--3x{font-size:3em}html{-webkit-box-sizing:border-box;box-sizing:border-box;-ms-overflow-style:scrollbar}*,:after,:before{-webkit-box-sizing:inherit;box-sizing:inherit}.container{width:100%;padding-right:8px;padding-left:8px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1152px}}.row{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-8px;margin-left:-8px}.col-12,.col-3,.col-md-8,.col-sm-2,.col-sm-8{position:relative;width:100%;padding-right:8px;padding-left:8px}.col-3{-webkit-box-flex:0}.col-3{-webkit-flex:0 0 25%;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-12{-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}@media (min-width:576px){.col-sm-2{-webkit-box-flex:0;-webkit-flex:0 0 16.66667%;-ms-flex:0 0 16.66667%;flex:0 0 16.66667%;max-width:16.66667%}.col-sm-8{-webkit-box-flex:0;-webkit-flex:0 0 66.66667%;-ms-flex:0 0 66.66667%;flex:0 0 66.66667%;max-width:66.66667%}}@media (min-width:768px){.col-md-8{-webkit-box-flex:0;-webkit-flex:0 0 66.66667%;-ms-flex:0 0 66.66667%;flex:0 0 66.66667%;max-width:66.66667%}}.d-none{display:none!important}.d-flex{display:-webkit-box!important;display:-webkit-flex!important;display:-ms-flexbox!important;display:flex!important}@media (min-width:576px){.d-sm-none{display:none!important}.d-sm-block{display:block!important}}.flex-nowrap{-webkit-flex-wrap:nowrap!important;-ms-flex-wrap:nowrap!important;flex-wrap:nowrap!important}.flex-grow-1{-webkit-box-flex:1!important;-webkit-flex-grow:1!important;-ms-flex-positive:1!important;flex-grow:1!important}.justify-content-between{-webkit-box-pack:justify!important;-webkit-justify-content:space-between!important;-ms-flex-pack:justify!important;justify-content:space-between!important}.align-content-start{-webkit-align-content:flex-start!important;-ms-flex-line-pack:start!important;align-content:flex-start!important}.align-content-center{-webkit-align-content:center!important;-ms-flex-line-pack:center!important;align-content:center!important}.mb-1{margin-bottom:.25rem!important}.ml-1{margin-left:.25rem!important}.ml-2{margin-left:.5rem!important}.pb-0{padding-bottom:0!important}.mx-auto{margin-right:auto!important}.mx-auto{margin-left:auto!important}@media (min-width:768px){.ml-md-3{margin-left:1rem!important}.mt-md-4{margin-top:1.5rem!important}}.btn{display:inline-block;font-weight:600;color:#212529;text-align:center;vertical-align:middle;background-color:transparent;border:1px solid transparent;padding:1rem .75rem;font-size:1rem;line-height:1;border-radius:4px}.btn-primary{color:#fff;background-color:#e14c41;border-color:#e14c41}.w-100{width:100%!important}.mw-100{max-width:100%!important}.pointer--none{pointer-events:none}.loading{position:absolute;top:0;left:0;width:100%;height:100%;background:#fff;opacity:0;z-index:99}.loading--hide{opacity:0}.loading img{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.main-nav{background-color:#fff}.main-nav__item,.main-nav__sub-nav__item{list-style:none}.main-nav__link,.main-nav__sub-nav__link{color:#737373;font-family:Open Sans,sans-serif;text-decoration:none}@media (max-width:767.98px){.main-nav{width:90%;height:999%;display:block;position:fixed;top:0;right:0;-webkit-box-shadow:-4px 0 10px 0 rgba(0,0,0,.4);box-shadow:-4px 0 10px 0 rgba(0,0,0,.4);z-index:999}.main-nav__logo{width:130px;height:32px}.main-nav__logo--desktop{display:none}.main-nav__list{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;width:100%;margin-top:10px;padding-left:20px}.main-nav__item,.main-nav__sub-nav__item{width:90%;padding:2px 2px 2px 0;border-bottom:2px solid hsla(0,0%,59.2%,.2)}.main-nav__item:last-child,.main-nav__sub-nav__item:last-child{border-bottom:0}.main-nav__link,.main-nav__sub-nav__link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;color:#737373;font-size:16px;-webkit-box-shadow:none;box-shadow:none}.main-nav__sub-nav__link{width:100%}.main-nav__icon{margin-right:10px;color:#e14c41;font-size:32px}.main-nav__mobile-header{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;width:100%;margin-top:20px;padding:0 20px;font-size:18px;font-weight:600}.main-nav__mobile-header--sub-nav{margin:20px 0 10px;padding-left:0}.main-nav--mobile-closed{right:-90%;-webkit-box-shadow:none;box-shadow:none}.main-nav__sub-nav{position:fixed;top:0;right:0;width:85%;height:100%;padding-left:20px;background:#fff;-webkit-box-shadow:-4px 0 10px 0 rgba(0,0,0,.4);box-shadow:-4px 0 10px 0 rgba(0,0,0,.4);overflow:auto}.main-nav__sub-nav--closed{right:-100%}.main-nav__sub-nav--nested{width:80%}.main-nav__sub-nav__item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}}@media (min-width:768px){.main-nav{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-shadow:0 10px 20px 0 rgba(0,0,0,.2);box-shadow:0 10px 20px 0 rgba(0,0,0,.2);z-index:99}.main-nav__logo{width:196px;height:50px}.main-nav__list{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;height:100%;margin-bottom:0}.main-nav__item{position:relative;padding:30px;border-bottom:6px solid #fff;font-size:18px;list-style:none}.main-nav__item--active{border-bottom:6px solid #e14c41}.main-nav__item:last-child .main-nav__sub-nav .main-nav__sub-nav{right:100%;left:auto}.main-nav__link{position:relative;color:#737373;font-family:Open Sans,sans-serif}.main-nav__link{text-decoration:none}.main-nav__icon,.main-nav__mobile-header{display:none}.main-nav__sub-nav{display:none;position:absolute;top:87px;left:0;width:175px;padding:0;border-top:6px solid #e14c41;background-color:#fff;-webkit-box-shadow:0 15px 22px 0 rgba(0,0,0,.08);box-shadow:0 15px 22px 0 rgba(0,0,0,.08);z-index:99}.main-nav__sub-nav:before{width:50%;height:50px;display:block;position:absolute;top:-50px;left:0}.main-nav__sub-nav .main-nav__sub-nav{display:none;top:0;left:100%}.main-nav__sub-nav__item{position:relative;font-size:16px;list-style:none}.main-nav__sub-nav__link{width:100%;height:100%;display:block;padding:12px 15px}}.menu-shadow{width:100%;height:100%;position:fixed;top:0;left:0;background-color:rgba(0,0,0,.4);z-index:9}.menu-shadow--hide{display:none}.main-nav-toggler{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding:10px;background-color:#fff}@media (min-width:768px){.main-nav-toggler--mobile{display:none}}.banner{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:100%;padding:50px 0;background-color:#4a4a4a}@media (max-width:767.98px){.banner{padding:20px}}.banner:before{width:100%;height:100%;position:absolute;top:0;left:0;background:no-repeat fixed center 0;-webkit-filter:brightness(60%);filter:brightness(60%)}@media (min-width:768px){.banner:before{background-size:cover}}.banner__content{position:relative;font-family:Open Sans,sans-serif}@media (max-width:767.98px){.banner__content{padding:20px;border-radius:10px;background-color:#fff}}.banner__title{color:#fff;font-size:32px;font-weight:800;text-align:center}@media (max-width:767.98px){.banner__title{position:relative;margin:0 0 .5rem;color:#6f6f6f;font-size:19px;text-align:left}}.funnel-form{position:relative;padding:1px 30px;border-radius:8px;background-color:#fff;text-align:center}@media (max-width:767.98px){.funnel-form{padding:0}}.funnel-form__elements{display:block;position:relative;margin:25px 0;text-align:left}@media (max-width:767.98px){.funnel-form__elements{margin:8px 0}}.product-card{position:relative;background-color:#fff;font-family:Open Sans,sans-serif;border:.0625rem solid hsla(0,0%,60.8%,.32);-webkit-box-shadow:0 .625rem .625rem 0 rgba(0,0,0,.1);box-shadow:0 .625rem .625rem 0 rgba(0,0,0,.1)}.product-card__content{padding:.5rem 0 1rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}@media (min-width:768px){.product-card__content{padding:1rem .75rem;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}}.product-card__content--left{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;font-size:.6875rem}.product-card__content--left,.product-card__content--left-wrapper{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.product-card__content--left-wrapper{-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:.625rem}@media (min-width:576px){.product-card__content--left-wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;margin-bottom:0}}.product-card__content--center{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}@media (min-width:576px){.product-card__content--center{-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around}}.product-card__content--right{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin-top:.625rem}@media (min-width:576px){.product-card__content--right{margin-top:0;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end}}.product-card__content--right-wrapper{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}@media (min-width:576px){.product-card__content--right-wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column}}.product-card__logo{width:75%}@media (max-width:767.98px){.product-card__logo{width:auto}}.product-card__name{font-size:.6875rem}.product-card__ratings{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.product-card__badge{position:absolute;top:0;right:0;background-color:#4a90e2}.product-card__badge:before{position:absolute;margin-top:0;margin-left:0;border-color:transparent transparent #fff #fff;border-style:solid;border-width:.625rem}.product-card__badge-text{width:6.875rem;height:1.25rem;padding-top:.0625rem;padding-left:1.25rem;display:block;color:#fff;font-size:.5625rem;font-weight:700;text-align:center}.product-card__label{display:block;color:#b9b9b9;font-family:Open Sans,sans-serif;font-size:.6875rem}@media (max-width:767.98px){.product-card__label{font-size:.625rem}}.product-card__value{color:#6f6f6f;font-size:1.5rem;letter-spacing:-.05rem}.product-card__value--bold{font-weight:700}@media (max-width:767.98px){.product-card__value{font-size:1.25rem}}.product-card__btn{display:inline-block;padding:.5625rem .9375rem;font-size:.75rem;font-weight:600;line-height:1.3;width:100%}@media (min-width:576px){.product-card__btn{line-height:1}}.product-card__btn-detail{margin:.4375rem 0}@media (max-width:767.98px){.product-card__btn-detail{margin:0 .4375rem 0 0}}.footer-list__item{list-style:none}.tab-button{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:100%;height:6.75rem;margin:0 0 1.5rem;padding:0 .3rem;border:none;background-color:#fff;color:#737373;-webkit-box-shadow:0 .1875rem .5rem 0 rgba(0,0,0,.2);box-shadow:0 .1875rem .5rem 0 rgba(0,0,0,.2)}@media (max-width:767.98px){.tab-button{height:7.5rem}}.tab-button--active{border-bottom:.1875rem solid #e14c41;outline:0;-webkit-box-shadow:0 .5rem .625rem 0 rgba(0,0,0,.35);box-shadow:0 .5rem .625rem 0 rgba(0,0,0,.35)}.tab-button__icon{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;margin:0;color:#e14c41}.tab-button__title{margin:0;padding:0 .625rem;font-size:.875rem;line-height:1.25}@media (min-width:576px){.tab-button__title{font-size:1rem;text-align:center}}.h2{margin-bottom:10px;color:#737373;font-size:1.25rem;font-weight:700;line-height:1}@media (min-width:576px){.h2{font-size:1.5rem}}.h2--secondary{color:#6f6f6f;font-size:.875rem;font-weight:400}@media (min-width:576px){.h2--secondary{font-size:1rem}}.h--colorless{color:#979797}.text--copy{color:#737373;font-size:.875rem}@media (min-width:576px){.text--copy{font-size:1rem}}.text--overall{color:#337ab7;font-size:.875rem;font-weight:600}.btn-transparent{border-radius:4px;border-color:#ccc;background-color:#fff;color:#b9b9b9;font-weight:600}.btn-transparent--small{padding:10px 13px;font-size:10px}.select__element option{font-weight:300}.section{padding:3rem 0}@media (max-width:767.98px){.section{padding:2rem 0}}.section--gray{background-color:#f6f6f6}@media (max-width:991.98px){.container{padding-right:16px;padding-left:16px}}.main-nav-toggler--mobile{-webkit-box-shadow:0 10px 20px 0 rgba(0,0,0,.2);box-shadow:0 10px 20px 0 rgba(0,0,0,.2);z-index:2}@media (max-width:767.98px){.banner{padding:20px 0}.banner:before{background:#fff none;-webkit-filter:none;filter:none}}@media (min-width:768px){.banner:before{background-image:url(https://hesapkurdu.cubecdn.net/images/banner/loan-interest-rate.jpg);background-size:100% 100%}}@media (max-width:767.98px){.banner__content{width:calc(100% - 32px);padding:0}}.product-card{margin:10px 0}@media (min-width:576px){.funnel-form{width:535px;margin:0 auto}}.tab-button{height:6.125rem;padding:0}@media (max-width:767.98px){.tab-button{height:5.625rem}}.tab-button--active{height:90%}.tab-button__title{padding:0}@media (device-height:568px) and (device-width:320px){.tab-button__title{font-size:.6875rem}}.best-rate{padding-bottom:20px}@media (max-width:767.98px){.best-rate{padding:10px 5px;-webkit-box-shadow:0 8px 8px 0 rgba(0,0,0,.1);box-shadow:0 8px 8px 0 rgba(0,0,0,.1)}}.best-rate__icon--text-color{height:100%;color:#737373;line-height:1}.best-rate__icon--down{color:#22b14c}.loading{border-radius:10px}
+    </style>
+    <noscript id="deferred-styles"></noscript>
+</head>
+<body id="page-body" class="page-body" itemscope itemtype="http://schema.org/WebPage">
+<header>
+    <div id="js-main-shadow" class="menu-shadow menu-shadow--hide"></div>
+    <div class="main-nav-toggler main-nav-toggler--mobile" id="js-main-nav-open"><a href="/"><img class="main-nav__logo"
+                                                                                                  src="https://hesapkurdu.cubecdn.net/images/hesapkurdu-logo-black.png"
+                                                                                                  alt="Hesapkurdu"
+                                                                                                  title="Hesapkurdu"></a><span
+            id="js-open-nav-bar" class="hk-icon--bars hk-icon--1-2x"></span></div>
+    <nav class="main-nav main-nav--mobile-closed" id="js-main-menu"><a href="/"><img
+            class="main-nav__logo main-nav__logo--desktop"
+            src="https://hesapkurdu.cubecdn.net/images/hesapkurdu-logo-black.png" alt="Hesapkurdu"
+            title="Hesapkurdu"></a>
+        <div class="main-nav__mobile-header"><span>Menü</span><span><i id="js-close-nav-bar" class="hk-icon--times"></i></span>
+        </div>
+        <ul class="main-nav__list">
+            <li class="main-nav__item" data-type="credit"><a class="main-nav__link js-toggle-sub-nav "
+                                                             href="javascript:void(0);"
+                                                             data-menu-href="sub-menu-id-0"><span
+                    class="main-nav__icon hk-icon--credit"></span><span>Kredi</span></a>
+                <ul class="main-nav__sub-nav main-nav__sub-nav--closed js-sub-nav" data-menu-id="sub-menu-id-0">
+                    <li class="main-nav__mobile-header main-nav__mobile-header--sub-nav"><span>Kredi</span><span><i
+                            class="hk-icon--left js-sub-nav-close"></i></span></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/konut-kredisi"
+                                                           data-menu-href="/konut-kredisi-sub-menu-id-0"><span
+                            class="main-nav__icon hk-icon--home"></span><span>Konut Kredisi</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/ihtiyac-kredisi"
+                                                           data-menu-href="/ihtiyac-kredisi-sub-menu-id-1"><span
+                            class="main-nav__icon hk-icon--banknot"></span><span>İhtiyaç Kredisi</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/tasit-kredisi"
+                                                           data-menu-href="/tasit-kredisi-sub-menu-id-2"><span
+                            class="main-nav__icon hk-icon--car"></span><span>Taşıt Kredisi</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/kredi-karti"
+                                                           data-menu-href="/kredi-karti-sub-menu-id-3"><span
+                            class="main-nav__icon hk-icon--credit-card"></span><span>Kredi Kartı</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/kobi-kredisi"
+                                                           data-menu-href="/kobi-kredisi-sub-menu-id-4"><span
+                            class="main-nav__icon hk-icon--store"></span><span>Kobi Kredisi</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/kredi-notu"
+                                                           data-menu-href="/kredi-notu-sub-menu-id-5"><span
+                            class="main-nav__icon hk-icon--certificate"></span><span>Kredi Notu</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/kredi-hesaplama"
+                                                           data-menu-href="/kredi-hesaplama-sub-menu-id-6"><span
+                            class="main-nav__icon hk-icon--calculate-separated"></span><span>Kredi Hesaplama</span></a>
+                    </li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/kredi-faiz-oranlari"
+                                                           data-menu-href="/kredi-faiz-oranlari-sub-menu-id-7"><span
+                            class="main-nav__icon hk-icon--calculate-separated"></span><span>Kredi Faiz Oranları</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="main-nav__item" data-type="insurance"><a class="main-nav__link js-toggle-sub-nav "
+                                                                href="javascript:void(0);"
+                                                                data-menu-href="sub-menu-id-1"><span
+                    class="main-nav__icon hk-icon--umbrella"></span><span>Sigorta</span></a>
+                <ul class="main-nav__sub-nav main-nav__sub-nav--closed js-sub-nav" data-menu-id="sub-menu-id-1">
+                    <li class="main-nav__mobile-header main-nav__mobile-header--sub-nav"><span>Sigorta</span><span><i
+                            class="hk-icon--left js-sub-nav-close"></i></span></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/trafik-sigortasi"
+                                                           data-menu-href="/trafik-sigortasi-sub-menu-id-0"><span
+                            class="main-nav__icon hk-icon--traffic-lamb"></span><span>Zorunlu Trafik Sigortası</span></a>
+                    </li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/kasko-sigortasi"
+                                                           data-menu-href="/kasko-sigortasi-sub-menu-id-1"><span
+                            class="main-nav__icon hk-icon--car"></span><span>Kasko</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/dask"
+                                                           data-menu-href="/dask-sub-menu-id-2"><span
+                            class="main-nav__icon hk-icon--earthquake "></span><span>Zorunlu Deprem Sigortası (DASK)</span></a>
+                    </li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/seyahat-sigortasi"
+                                                           data-menu-href="/seyahat-sigortasi-sub-menu-id-3"><span
+                            class="main-nav__icon hk-icon--plane-world"></span><span>Seyahat Sigortası</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link "
+                                                           href="/tamamlayici-saglik-sigortasi"
+                                                           data-menu-href="tamamlayici-saglik-sigortasi-sub-menu-id-4"><span
+                            class="main-nav__icon hk-icon--heart"></span><span>Tamamlayıcı Sağlık Sigortası</span></a>
+                    </li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/konut-sigortasi"
+                                                           data-menu-href="konut-sigortasi-sub-menu-id-5"><span
+                            class="main-nav__icon hk-icon--home-umbrella"></span><span>Konut Sigortası</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link "
+                                                           href="/trafik-sigortasi/h/arac-sigorta-sorgulama"
+                                                           data-menu-href="/trafik-sigortasi/h/arac-sigorta-sorgulama-sub-menu-id-6"><span
+                            class="main-nav__icon hk-icon--umbrella"></span><span>Sigorta Sorgulama</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link "
+                                                           href="/kasko-sigortasi/h/kasko-deger-listesi"
+                                                           data-menu-href="/kasko-sigortasi/h/kasko-deger-listesi-sub-menu-id-7"><span
+                            class="main-nav__icon hk-icon--umbrella"></span><span>Kasko Değer Listesi</span></a></li>
+                </ul>
+            </li>
+            <li class="main-nav__item" data-type="deposit"><a class="main-nav__link " href="/mevduat"
+                                                              data-menu-href="sub-menu-id-2"><span
+                    class="main-nav__icon hk-icon--save-money"></span><span>Mevduat</span></a></li>
+            <li class="main-nav__item" data-type="invoice"><a class="main-nav__link js-toggle-sub-nav "
+                                                              href="javascript:void(0);" data-menu-href="sub-menu-id-3"><span
+                    class="main-nav__icon hk-icon--bill"></span><span>Hesaplı Fatura</span></a>
+                <ul class="main-nav__sub-nav main-nav__sub-nav--closed js-sub-nav" data-menu-id="sub-menu-id-3">
+                    <li class="main-nav__mobile-header main-nav__mobile-header--sub-nav">
+                        <span>Hesaplı Fatura</span><span><i class="hk-icon--left js-sub-nav-close"></i></span></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/internet-baglantisi"
+                                                           data-menu-href="/internet-baglantisi-sub-menu-id-0"><span
+                            class="main-nav__icon hk-icon--credit"></span><span>İnternet Bağlantısı</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/elektrik"
+                                                           data-menu-href="elektrik-sub-menu-id-1"><span
+                            class="main-nav__icon hk-icon--credit"></span><span>İndirimli Elektrik</span></a></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link "
+                                                           href="/elektrik/fatura-sorgulama-odeme"
+                                                           data-menu-href="/elektrik/fatura-sorgulama-odeme-sub-menu-id-2"><span
+                            class="main-nav__icon hk-icon--credit"></span><span>Fatura Ödeme</span></a></li>
+                </ul>
+            </li>
+            <li class="main-nav__item" data-type="companies"><a class="main-nav__link js-toggle-sub-nav "
+                                                                href="javascript:void(0);"
+                                                                data-menu-href="sub-menu-id-4"><span
+                    class="main-nav__icon hk-icon--build"></span><span>Kurumlar</span></a>
+                <ul class="main-nav__sub-nav main-nav__sub-nav--closed js-sub-nav" data-menu-id="sub-menu-id-4">
+                    <li class="main-nav__mobile-header main-nav__mobile-header--sub-nav"><span>Kurumlar</span><span><i
+                            class="hk-icon--left js-sub-nav-close"></i></span></li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav "
+                                                           href="javascript:void(0);"
+                                                           data-menu-href="#-sub-menu-id-0"><span
+                            class="main-nav__icon hk-icon--bank"></span><span>Bankalar</span></a>
+                        <ul class="main-nav__sub-nav main-nav__sub-nav--nested main-nav__sub-nav--closed js-sub-nav"
+                            data-menu-id="#-sub-menu-id-0">
+                            <li class="main-nav__mobile-header main-nav__mobile-header--sub-nav">
+                                <span>Bankalar</span><span><i class="hk-icon--left js-sub-nav-close"></i></span></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/akbank/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Akbank</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/burgan-bank/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Burgan Bank</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/cepteteb/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>CEPTETEB</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/denizbank/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>DenizBank</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/enpara/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Enpara</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/garanti-bankasi/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Garanti BBVA</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/halkbank/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Halkbank</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/icbc/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>ICBC Turkey</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/ing-bank/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>ING</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/is-bankasi/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>İş Bankası</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/kuveyt-turk/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Kuveyt T&#252;rk</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/finansbank/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>QNB Finansbank</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/teb/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>TEB</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/vakifbank/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Vakıfbank</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/yapi-kredi/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Yapı Kredi</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/ziraat-bankasi/ihtiyac-kredisi"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Ziraat Bankası</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav "
+                                                           href="javascript:void(0);"
+                                                           data-menu-href="-sub-menu-id-1"><span
+                            class="main-nav__icon hk-icon--home-umbrella"></span><span>Sigorta Şirketleri</span></a>
+                        <ul class="main-nav__sub-nav main-nav__sub-nav--nested main-nav__sub-nav--closed js-sub-nav"
+                            data-menu-id="-sub-menu-id-1">
+                            <li class="main-nav__mobile-header main-nav__mobile-header--sub-nav"><span>Sigorta Şirketleri</span><span><i
+                                    class="hk-icon--left js-sub-nav-close"></i></span></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/axa-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Axa Sigorta</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/ergo-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Ergo Sigorta</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/generali-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Generali Sigorta</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/groupama-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Groupama Sigorta</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/hdi-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>HDI Sigorta</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/mapfre-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Mapfre Sigorta</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/ray-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Ray Sigorta</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/koru-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Koru Sigorta</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/turk-nippon-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>T&#252;rk Nippon Sigorta</span></a>
+                            </li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/nn-hayat-emeklilik"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>NN Hayat Emeklilik</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/vakif-hayat-emeklilik"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Vakıf Emeklilik</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/unico-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Unico Sigorta</span></a></li>
+                            <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link js-toggle-sub-nav"
+                                                                   href="/quick-sigorta"><span
+                                    class="main-nav__icon hk-icon--bank"></span><span>Quick Sigorta</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/enerji-sirketleri"
+                                                           data-menu-href="/enerji-sirketleri-sub-menu-id-2"><span
+                            class="main-nav__icon hk-icon--energy-company"></span><span>Enerji Şirketleri</span></a>
+                    </li>
+                    <li class="main-nav__sub-nav__item"><a class="main-nav__sub-nav__link " href="/subeler"
+                                                           data-menu-href="/subeler-sub-menu-id-3"><span
+                            class="main-nav__icon hk-icon--home-banknot"></span><span>Şubeler</span></a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="banner">
+    <div class="banner__content"><h1 class="banner__title">Kredi Faiz Oranları - 01 Ağustos 2019 </h1>
+        <div class="funnel-form" novalidate="novalidate">
+            <div id="js-form-loading" class="loading pointer--none loading--hide"><img
+                    src="https://hesapkurdu.cubecdn.net/images/loading.svg" alt="loading" title="loading"></div>
+            <div class="funnel-form__elements">
+                <div class="row flex-nowrap">
+                    <div class="col-3">
+                        <button type="button" class="js-tab-button tab-button tab-button--active"
+                                data-visible-href="pl-rate"><span
+                                class="tab-button__icon hk-icon--banknot hk-icon--2x pointer--none"></span>
+                            <p class="tab-button__title pointer--none">İhtiyaç<br/>Kredisi</p></button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="js-tab-button tab-button" data-visible-href="ml-rate"><span
+                                class="tab-button__icon hk-icon--home hk-icon--2x pointer--none"></span>
+                            <p class="tab-button__title pointer--none">Konut<br/>Kredisi</p></button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="js-tab-button tab-button" data-visible-href="al-rate"><span
+                                class="tab-button__icon hk-icon--car hk-icon--2x pointer--none"></span>
+                            <p class="tab-button__title pointer--none">Taşıt<br/>Kredisi</p></button>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="tab-button" onclick="window.location = '/mevduat'"><span
+                                class="tab-button__icon hk-icon--save-money hk-icon--2x pointer--none"></span>
+                            <p class="tab-button__title pointer--none">Mevduat</p></button>
+                    </div>
+                </div>
+            </div>
+            <div class="js-visible-by-type" data-visible="pl-rate">
+                <figure class="best-rate d-flex align-content-start mt-md-4"><span
+                        class="best-rate__icon--text-color hk-icon--award hk-icon--3x"></span>
+                    <div class="ml-2 ml-md-3 w-100">
+                        <div class="d-flex justify-content-between align-content-center"><p class="text--copy pb-0">
+                            <strong>En Düşük Faiz Oranı</strong></p>
+                            <p class="text--copy pb-0"><strong>%1,55 </strong></p></div>
+                        <div><p class="text--copy d-flex justify-content-between mb-1"><span>1 hafta önce</span><span>%1,69 </span>
+                        </p>
+                            <p class="text--copy d-flex justify-content-between mb-1">
+                                <span>1 ay önce</span><span>%1,74 </span></p>
+                            <p class="text--copy d-flex justify-content-between mb-1">
+                                <span>1 yıl önce</span><span>%1,45 </span></p></div>
+                    </div>
+                    <span class="best-rate__icon--down hk-icon--arrow-down hk-icon--1-5x ml-2 ml-md-3 "></span></figure>
+            </div>
+            <div class="js-visible-by-type d-none" data-visible="ml-rate">
+                <figure class="best-rate d-flex align-content-start mt-md-4"><span
+                        class="best-rate__icon--text-color hk-icon--award hk-icon--3x"></span>
+                    <div class="ml-2 ml-md-3 w-100">
+                        <div class="d-flex justify-content-between align-content-center"><p class="text--copy pb-0">
+                            <strong>En Düşük Faiz Oranı</strong></p>
+                            <p class="text--copy pb-0"><strong>%1,49 </strong></p></div>
+                        <div><p class="text--copy d-flex justify-content-between mb-1"><span>1 hafta önce</span><span>%1,50</span>
+                        </p>
+                            <p class="text--copy d-flex justify-content-between mb-1">
+                                <span>1 ay önce</span><span>%1,55</span></p>
+                            <p class="text--copy d-flex justify-content-between mb-1">
+                                <span>1 yıl önce</span><span>%1,38</span></p></div>
+                    </div>
+                    <span class="best-rate__icon--down hk-icon--arrow-down hk-icon--1-5x ml-2 ml-md-3 "></span></figure>
+            </div>
+            <div class="js-visible-by-type d-none" data-visible="al-rate">
+                <figure class="best-rate d-flex align-content-start mt-md-4"><span
+                        class="best-rate__icon--text-color hk-icon--award hk-icon--3x"></span>
+                    <div class="ml-2 ml-md-3 w-100">
+                        <div class="d-flex justify-content-between align-content-center"><p class="text--copy pb-0">
+                            <strong>En Düşük Faiz Oranı</strong></p>
+                            <p class="text--copy pb-0"><strong>%1,72 </strong></p></div>
+                        <div><p class="text--copy d-flex justify-content-between mb-1"><span>1 hafta önce</span><span>%1,71</span>
+                        </p>
+                            <p class="text--copy d-flex justify-content-between mb-1">
+                                <span>1 ay önce</span><span>%1,76</span></p>
+                            <p class="text--copy d-flex justify-content-between mb-1">
+                                <span>1 yıl önce</span><span>%1,49</span></p></div>
+                    </div>
+                    <span class="best-rate__icon--up hk-icon--arrow-up hk-icon--1-5x ml-2 ml-md-3 "></span></figure>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="section section--gray">
+    <div class="container">
+        <div class="row">
+            <div class="js-visible-by-type col-md-8 mx-auto" data-visible="pl-rate"><h2 class="h2">En Uygun İhtiyaç
+                Kredisi Faiz Oranları</h2>
+                <p class="h2--secondary h--colorless">10.000 TL 60 Ay Vade</p>
+                <div class="product-card">
+                    <div class="product-card__content">
+                        <div class="product-card__content--left col-sm-2">
+                            <div class="product-card__content--left-wrapper"><img class="product-card__logo"
+                                                                                  src="https://hesapkurdu.cubecdn.net/images/bank/m-3.png"
+                                                                                  alt="QNB Finansbank Kredi Faiz Oranları"
+                                                                                  title="QNB Finansbank Kredi Faiz Oranları"><span
+                                    class="product-card__name d-none d-sm-block"></span></div>
+                        </div>
+                        <div class="product-card__content--center col-sm-8 col-12">
+                            <div><span class="product-card__label">Toplam Maliyet</span><span
+                                    class="product-card__value">16.438 TL</span></div>
+                            <div><span class="product-card__label">Faiz Oranı</span><span class="product-card__value"> %1,49</span>
+                            </div>
+                            <div><span class="product-card__label">Aylık Taksit</span><span
+                                    class="product-card__value product-card__value--bold"> 273 TL</span></div>
+                        </div>
+                        <div class="product-card__content--right col-sm-2 col-12"><span
+                                class="product-card__name d-sm-none"></span>
+                            <div class="product-card__content--right-wrapper"><a
+                                    class="btn btn-primary product-card__btn"
+                                    href="/ihtiyac-kredisi-hizli-basvuru?key=7gQxtOsjPAw1&maturity=60&loanAmount=10000">Devam
+                                et</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__content">
+                        <div class="product-card__content--left col-sm-2">
+                            <div class="product-card__content--left-wrapper"><img class="product-card__logo"
+                                                                                  src="https://hesapkurdu.cubecdn.net/images/bank/m-33.png"
+                                                                                  alt="Vakıfbank Kredi Faiz Oranları"
+                                                                                  title="Vakıfbank Kredi Faiz Oranları"><span
+                                    class="product-card__name d-none d-sm-block"></span></div>
+                        </div>
+                        <div class="product-card__content--center col-sm-8 col-12">
+                            <div><span class="product-card__label">Toplam Maliyet</span><span
+                                    class="product-card__value">16.438 TL</span></div>
+                            <div><span class="product-card__label">Faiz Oranı</span><span class="product-card__value"> %1,49</span>
+                            </div>
+                            <div><span class="product-card__label">Aylık Taksit</span><span
+                                    class="product-card__value product-card__value--bold"> 273 TL</span></div>
+                        </div>
+                        <div class="product-card__content--right col-sm-2 col-12"><span
+                                class="product-card__name d-sm-none"></span>
+                            <div class="product-card__content--right-wrapper"><a
+                                    class="btn btn-primary product-card__btn"
+                                    href="/ihtiyac-kredisi-hizli-basvuru?key=M0XwYiqH3So1&maturity=60&loanAmount=10000">Devam
+                                et</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__content">
+                        <div class="product-card__content--left col-sm-2">
+                            <div class="product-card__content--left-wrapper"><img class="product-card__logo"
+                                                                                  src="https://hesapkurdu.cubecdn.net/images/bank/m-34.png"
+                                                                                  alt="Ziraat Bankası Kredi Faiz Oranları"
+                                                                                  title="Ziraat Bankası Kredi Faiz Oranları"><span
+                                    class="product-card__name d-none d-sm-block"></span></div>
+                        </div>
+                        <div class="product-card__content--center col-sm-8 col-12">
+                            <div><span class="product-card__label">Toplam Maliyet</span><span
+                                    class="product-card__value">16.438 TL</span></div>
+                            <div><span class="product-card__label">Faiz Oranı</span><span class="product-card__value"> %1,49</span>
+                            </div>
+                            <div><span class="product-card__label">Aylık Taksit</span><span
+                                    class="product-card__value product-card__value--bold"> 273 TL</span></div>
+                        </div>
+                        <div class="product-card__content--right col-sm-2 col-12"><span
+                                class="product-card__name d-sm-none"></span>
+                            <div class="product-card__content--right-wrapper"><a
+                                    class="btn btn-primary product-card__btn"
+                                    href="/ihtiyac-kredisi-hizli-basvuru?key=RwSjrzGGcrs1&maturity=60&loanAmount=10000">Devam
+                                et</a></div>
+                        </div>
+                    </div>
+                </div>
+                <a class="expand-collapse-link expand-collapse-link--product d-block text-right mt-4"
+                   href="/ihtiyac-kredisi">Tüm İhtiyaç Kredisi Faiz Oranları</a></div>
+            <div class="js-visible-by-type d-none col-md-8 mx-auto" data-visible="ml-rate"><h2 class="h2">En Uygun Konut
+                Kredisi Faiz Oranları</h2>
+                <p class="h2--secondary h--colorless">100.000 TL 10 Yıl Vade</p>
+                <div class="product-card">
+                    <div class="product-card__content">
+                        <div class="product-card__content--left col-sm-2">
+                            <div class="product-card__content--left-wrapper"><img class="product-card__logo"
+                                                                                  src="https://hesapkurdu.cubecdn.net/images/bank/m-2.png"
+                                                                                  alt="ICBC Turkey Kredi Faiz Oranları"
+                                                                                  title="ICBC Turkey Kredi Faiz Oranları"><span
+                                    class="product-card__name d-none d-sm-block"></span></div>
+                        </div>
+                        <div class="product-card__content--center col-sm-8 col-12">
+                            <div><span class="product-card__label">Toplam Maliyet</span><span
+                                    class="product-card__value">214.410 TL</span></div>
+                            <div><span class="product-card__label">Faiz Oranı</span><span class="product-card__value"> %1,47</span>
+                            </div>
+                            <div><span class="product-card__label">Aylık Taksit</span><span
+                                    class="product-card__value product-card__value--bold"> 1.779 TL</span></div>
+                        </div>
+                        <div class="product-card__content--right col-sm-2 col-12"><span
+                                class="product-card__name d-sm-none"></span>
+                            <div class="product-card__content--right-wrapper"><a
+                                    class="btn btn-primary product-card__btn"
+                                    href="/konut-kredisi-hizli-basvuru?key=X1BDTUMBgz81&maturity=120&loanAmount=100000">Devam
+                                et</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__content">
+                        <div class="product-card__content--left col-sm-2">
+                            <div class="product-card__content--left-wrapper"><img class="product-card__logo"
+                                                                                  src="https://hesapkurdu.cubecdn.net/images/bank/m-29.png"
+                                                                                  alt="ING Kredi Faiz Oranları"
+                                                                                  title="ING Kredi Faiz Oranları"><span
+                                    class="product-card__name d-none d-sm-block"></span></div>
+                        </div>
+                        <div class="product-card__content--center col-sm-8 col-12">
+                            <div><span class="product-card__label">Toplam Maliyet</span><span
+                                    class="product-card__value">215.379 TL</span></div>
+                            <div><span class="product-card__label">Faiz Oranı</span><span class="product-card__value"> %1,48</span>
+                            </div>
+                            <div><span class="product-card__label">Aylık Taksit</span><span
+                                    class="product-card__value product-card__value--bold"> 1.786 TL</span></div>
+                        </div>
+                        <div class="product-card__content--right col-sm-2 col-12"><span
+                                class="product-card__name d-sm-none"></span>
+                            <div class="product-card__content--right-wrapper"><a
+                                    class="btn btn-primary product-card__btn"
+                                    href="/konut-kredisi-hizli-basvuru?key=vBBpvw3pn881&maturity=120&loanAmount=100000">Devam
+                                et</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__content">
+                        <div class="product-card__content--left col-sm-2">
+                            <div class="product-card__content--left-wrapper"><img class="product-card__logo"
+                                                                                  src="https://hesapkurdu.cubecdn.net/images/bank/m-6.png"
+                                                                                  alt="Akbank Kredi Faiz Oranları"
+                                                                                  title="Akbank Kredi Faiz Oranları"><span
+                                    class="product-card__name d-none d-sm-block"></span></div>
+                        </div>
+                        <div class="product-card__content--center col-sm-8 col-12">
+                            <div><span class="product-card__label">Toplam Maliyet</span><span
+                                    class="product-card__value">216.403 TL</span></div>
+                            <div><span class="product-card__label">Faiz Oranı</span><span class="product-card__value"> %1,49</span>
+                            </div>
+                            <div><span class="product-card__label">Aylık Taksit</span><span
+                                    class="product-card__value product-card__value--bold"> 1.794 TL</span></div>
+                        </div>
+                        <div class="product-card__content--right col-sm-2 col-12"><span
+                                class="product-card__name d-sm-none"></span>
+                            <div class="product-card__content--right-wrapper"><a
+                                    class="btn btn-primary product-card__btn"
+                                    href="/konut-kredisi-hizli-basvuru?key=N14m_qaGZTM1&maturity=120&loanAmount=100000">Devam
+                                et</a></div>
+                        </div>
+                    </div>
+                </div>
+                <a class="expand-collapse-link expand-collapse-link--product d-block text-right mt-4"
+                   href="/konut-kredisi">Tüm Konut Kredisi Faiz Oranları</a></div>
+            <div class="js-visible-by-type d-none col-md-8 mx-auto" data-visible="al-rate"><h2 class="h2">En Uygun Taşıt
+                Kredisi Faiz Oranları</h2>
+                <p class="h2--secondary h--colorless">40.000 TL 60 Ay Vade</p>
+                <div class="product-card">
+                    <div class="product-card__content">
+                        <div class="product-card__content--left col-sm-2">
+                            <div class="product-card__content--left-wrapper"><img class="product-card__logo"
+                                                                                  src="https://hesapkurdu.cubecdn.net/images/bank/m-34.png"
+                                                                                  alt="Ziraat Bankası Kredi Faiz Oranları"
+                                                                                  title="Ziraat Bankası Kredi Faiz Oranları"><span
+                                    class="product-card__name d-none d-sm-block"></span></div>
+                        </div>
+                        <div class="product-card__content--center col-sm-8 col-12">
+                            <div><span class="product-card__label">Toplam Maliyet</span><span
+                                    class="product-card__value">64.586 TL</span></div>
+                            <div><span class="product-card__label">Faiz Oranı</span><span class="product-card__value"> %1,43</span>
+                            </div>
+                            <div><span class="product-card__label">Aylık Taksit</span><span
+                                    class="product-card__value product-card__value--bold"> 1.073 TL</span></div>
+                        </div>
+                        <div class="product-card__content--right col-sm-2 col-12"><span
+                                class="product-card__name d-sm-none"></span>
+                            <div class="product-card__content--right-wrapper"><a
+                                    class="btn btn-primary product-card__btn"
+                                    href="/tasit-kredisi-hizli-basvuru?key=RwSjrzGGcrs1&maturity=60&loanAmount=40000">Devam
+                                et</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__content">
+                        <div class="product-card__content--left col-sm-2">
+                            <div class="product-card__content--left-wrapper"><img class="product-card__logo"
+                                                                                  src="https://hesapkurdu.cubecdn.net/images/bank/m-2.png"
+                                                                                  alt="ICBC Turkey Kredi Faiz Oranları"
+                                                                                  title="ICBC Turkey Kredi Faiz Oranları"><span
+                                    class="product-card__name d-none d-sm-block"></span></div>
+                        </div>
+                        <div class="product-card__content--center col-sm-8 col-12">
+                            <div><span class="product-card__label">Toplam Maliyet</span><span
+                                    class="product-card__value">69.519 TL</span></div>
+                            <div><span class="product-card__label">Faiz Oranı</span><span class="product-card__value"> %1,68</span>
+                            </div>
+                            <div><span class="product-card__label">Aylık Taksit</span><span
+                                    class="product-card__value product-card__value--bold"> 1.155 TL</span></div>
+                        </div>
+                        <div class="product-card__content--right col-sm-2 col-12"><span
+                                class="product-card__name d-sm-none"></span>
+                            <div class="product-card__content--right-wrapper"><a
+                                    class="btn btn-primary product-card__btn"
+                                    href="/tasit-kredisi-hizli-basvuru?key=X1BDTUMBgz81&maturity=60&loanAmount=40000">Devam
+                                et</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__content">
+                        <div class="product-card__content--left col-sm-2">
+                            <div class="product-card__content--left-wrapper"><img class="product-card__logo"
+                                                                                  src="https://hesapkurdu.cubecdn.net/images/bank/m-29.png"
+                                                                                  alt="ING Kredi Faiz Oranları"
+                                                                                  title="ING Kredi Faiz Oranları"><span
+                                    class="product-card__name d-none d-sm-block"></span></div>
+                        </div>
+                        <div class="product-card__content--center col-sm-8 col-12">
+                            <div><span class="product-card__label">Toplam Maliyet</span><span
+                                    class="product-card__value">69.720 TL</span></div>
+                            <div><span class="product-card__label">Faiz Oranı</span><span class="product-card__value"> %1,69</span>
+                            </div>
+                            <div><span class="product-card__label">Aylık Taksit</span><span
+                                    class="product-card__value product-card__value--bold"> 1.159 TL</span></div>
+                        </div>
+                        <div class="product-card__content--right col-sm-2 col-12"><span
+                                class="product-card__name d-sm-none"></span>
+                            <div class="product-card__content--right-wrapper"><a
+                                    class="btn btn-primary product-card__btn"
+                                    href="/tasit-kredisi-hizli-basvuru?key=vBBpvw3pn881&maturity=60&loanAmount=40000">Devam
+                                et</a></div>
+                        </div>
+                    </div>
+                </div>
+                <a class="expand-collapse-link expand-collapse-link--product d-block text-right mt-4"
+                   href="/tasit-kredisi">Tüm Taşıt Kredisi Faiz Oranları</a></div>
+            <div class="col-md-8 mx-auto"><p class="text--copy mt-3"> Kredi hesaplamak ve ödeme planı oluşturmak için <a
+                    href="/kredi-hesaplama">kredi faiz hesaplama</a> sayfasını inceleyiniz. </p></div>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12"><h2 class="h2">Banka Kredi Faiz Oranları - 01 Ağustos 2019 </h2></div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <table class="data-table data-table--block">
+                    <tbody>
+                    <tr class="data-table__row--head">
+                        <th class="data-table__item data-table__item--head-copy data-table__item--head-copy-small">
+                            Bankalar
+                        </th>
+                        <th class="data-table__item data-table__item--head-copy data-table__item--head-copy-small">
+                            İhtiyaç Kredisi Faiz Oranları
+                        </th>
+                        <th class="data-table__item data-table__item--head-copy data-table__item--head-copy-small">
+                            Konut Kredisi Faiz Oranları
+                        </th>
+                        <th class="data-table__item data-table__item--head-copy data-table__item--head-copy-small">
+                            Taşıt Kredisi Faiz Oranları
+                        </th>
+                    </tr>
+                    <tr class="data-table__row">
+                        <td class="data-table__item">ICBC Turkey</td>
+                        <td class="data-table__item">% 1,59</td>
+                        <td class="data-table__item">% 1,47</td>
+                        <td class="data-table__item">% 1,52</td>
+                    </tr>
+                    <tr class="data-table__row">
+                        <td class="data-table__item">Kuveyt T&#252;rk</td>
+                        <td class="data-table__item">% 1,75</td>
+                        <td class="data-table__item">% 1,47</td>
+                        <td class="data-table__item">% 1,65</td>
+                    </tr>
+                    <tr class="data-table__row">
+                        <td class="data-table__item">Senin Bankan</td>
+                        <td class="data-table__item">% 0</td>
+                        <td class="data-table__item">-</td>
+                        <td class="data-table__item">% 1,65</td>
+                    </tr>
+                    <tr class="data-table__row">
+                        <td class="data-table__item">ING</td>
+                        <td class="data-table__item">% 1,70</td>
+                        <td class="data-table__item">% 1,48</td>
+                        <td class="data-table__item">% 1,69</td>
+                    </tr>
+                    <tr class="data-table__row">
+                        <td class="data-table__item">Akbank</td>
+                        <td class="data-table__item">% 2,06</td>
+                        <td class="data-table__item">% 1,49</td>
+                        <td class="data-table__item">% 1,93</td>
+                    </tr>
+                    <tr class="data-table__row">
+                        <td class="data-table__item">Garanti BBVA</td>
+                        <td class="data-table__item">% 1,99</td>
+                        <td class="data-table__item">% 1,53</td>
+                        <td class="data-table__item">% 1,84</td>
+                    </tr>
+                    <tr class="data-table__row">
+                        <td class="data-table__item">Halkbank</td>
+                        <td class="data-table__item">% 2,15</td>
+                        <td class="data-table__item">% 1,53</td>
+                        <td class="data-table__item">% 1,79</td>
+                    </tr>
+                    <tr class="data-table__row">
+                        <td class="data-table__item">TEB</td>
+                        <td class="data-table__item">% 2,30</td>
+                        <td class="data-table__item">% 1,55</td>
+                        <td class="data-table__item">% 1,77</td>
+                    </tr>
+                    <tr class="data-table__row">
+                        <td class="data-table__item">T&#252;rkiye Finans Katılım Bankası</td>
+                        <td class="data-table__item">% 1,91</td>
+                        <td class="data-table__item">% 1,70</td>
+                        <td class="data-table__item">% 1,82</td>
+                    </tr>
+                    <tr class="data-table__row">
+                        <td class="data-table__item">Ziraat Katılım</td>
+                        <td class="data-table__item">% 2,10</td>
+                        <td class="data-table__item">% 1,70</td>
+                        <td class="data-table__item">% 1,89</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p class="text--copy mt-5"> Tabloda bankaların 01 Ağustos 2019 itibarıyla güncel en uygun kredi faiz
+                    oranları listelenmiştir. </p>
+                <p class="text--copy"> 120 ay vadede güncel en uygun konut kredisi faiz oranı %1,47, en düşük yıllık
+                    maliyet oranı ise %19,45. En uygun kredi faiz oranı ile 100.000 TL konut kredisi için aylık taksit
+                    1.779 TL, toplam geri ödeme ise 214.410 TL hesaplanır. </p>
+                <p class="text--copy"> 5 yıl vadede güncel en uygun ihtiyaç kredisi faiz oranı %1,49, en düşük aylık
+                    maliyet oranı ise %1,81. En uygun kredi faiz oranı ile 10.000 TL ihtiyaç kredisi için aylık taksit
+                    273 TL, toplam geri ödeme ise 16.438 TL hesaplanır. </p>
+                <p class="text--copy"> 5 yıl vadede güncel en uygun taşıt kredisi faiz oranı %1,43, en düşük aylık
+                    maliyet oranı ise %22,95. En uygun kredi faiz oranı ile 40.000 TL taşıt kredisi için aylık taksit
+                    1.073 TL, toplam geri ödeme ise 64.586 TL hesaplanır. </p></div>
+        </div>
+    </div>
+</section>
+<section class="section section--gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-12"><h2 class="h2">İhtiyaç Kredisi Faiz Oranları</h2>
+                <h3 class="h3 my-4">İhtiyaç Kredisi Faiz Oranları Değişim Grafiği</h3>
+                <figure class="chart-graph">
+                    <canvas id="js-interestRatesChart" width="400" height="400"></canvas>
+                </figure>
+                <p class="text--copy"> Yüksek kredi faiz oranları 2018 yılı 2. yarısında ve 2019 yılında kredi talebini
+                    olumsuz yönde etkiledi. Evlilik, eğitim gibi zorunlu ihtiyaçlar için kredi talebi devam ederken en
+                    yoğun talep yüksek kredi ve kredi kartı borçlarını birleştirip uzun vadeye yaymak isteyen
+                    tüketiciden geldi. Bu şekilde borçlu olan ve ödeme güçlüğü çeken tüketicinin kredi faiz hassasiyeti
+                    ise nispeten daha düşük. Yani tüketici düşük kredi faiz oranındansa kredi talebini onaylayacak banka
+                    arıyor. </p>
+                <p class="text--copy"> 1.08.2019 tarihinde 5 yıl vadede en uygun banka kredisi faiz oranı aylık % 1,49
+                    en düşük banka kredisi maliyet oranı aylık % 1,81 seviyesinde. Bugün sunulan en düşük banka kredisi
+                    teklifiyle 10.000 TL 36 ay vadede ihtiyaç kredisi kullanılırsa aylık taksit 273 TL, toplam geri
+                    ödeme ise 16.438 TL olacak. </p></div>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12"><h2 class="h2">Konut Kredisi Faiz Oranları</h2>
+                <p class="text--copy"> Konut kredilerinde de faizler yüksek olmasına rağmen ev almak için kötü bir zaman
+                    değil. Piyasadaki sıkışma sebebiyle ev satmak zorlaştı, elinde nakdi olanlar için konut fiyatlarında
+                    ciddi indirimler ve fırsatlar oluştu. Ev alırken kredi kullanmanız gerekiyorsa peşinatı yüksek tutup
+                    kredi tutarını imkânlarınız dahilinde aşağı çekmenizi öneriyoruz. </p>
+                <p class="text--copy"> 1.08.2019 tarihinde 10 yıl vadede en uygun banka konut kredisi faiz oranı aylık %
+                    1,47 en düşük banka konut kredisi maliyet oranı aylık % 19,45 seviyesinde. Bugün sunulan en uygun
+                    banka konut kredisi teklifiyle 100.000 TL 120 ay vadede konut kredisi kullanılırsa aylık taksit
+                    1.779 TL, toplam geri ödeme ise 214.410 TL olacak. </p></div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12"><h2 class="h2">Kredi Faiz Oranları Rehberi</h2></div>
+            <div class="col-12">
+                <div class="accordion-container">
+                    <div class="text-right"><a href="#" class="js-toggle-accordion expand-collapse-link">Tümünü
+                        Göster</a></div>
+                    <div class="accordion border-0"><h3 class="accordion__title" data-toggle="collapse"
+                                                        data-target="#faq-2">2019 Kredi Faiz Oranları Değerlendirme</h3>
+                        <div class="collapse js-collapse-content" id="faq-2">
+                            <ul class="text--copy">
+                                <li>2018 yılı içinde kredi faiz oranları kademeli olarak arttı. Konut kredisi faiz
+                                    oranları %1,50-%1,80, ihtiyaç kredisi faiz oranları ise %1,80 - %2,00 aralığına
+                                    ulaştı.
+                                </li>
+                                <li>Bankalar kredi verebilmek için mevduat toplayarak fon yaratırlar. TL'nin değer
+                                    kaybetmesi ve mevduat oranlarının artması kredi fon maliyetlerinin yukarı çıkmasına
+                                    ve kredi faiz oranlarının yükselmesine sebep oldu.
+                                </li>
+                                <li>Evlilik, eğitim gibi zorunlu ihtiyaçlar için kredi talebi devam ederken en yoğun
+                                    talep yüksek kredi ve kredi kartı borçlarını birleştirip uzun vadeye yaymak isteyen
+                                    tüketiciden geldi.
+                                </li>
+                                <li>Kredi faizleri yüksek olmasına rağmen ev almak için kötü bir zaman değil. Piyasadaki
+                                    sıkışma sebebiyle ev satmak zorlaştı, elinde nakdi olanlar için konut fiyatlarında
+                                    ciddi indirimler ve fırsatlar oluştu. Ev alırken kredi kullanmanız gerekiyorsa
+                                    peşinatı yüksek tutup kredi tutarını imkanlarınız dahilinde aşağı çekmenizi
+                                    öneriyoruz.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-3">
+                        Kredi Faiz Oranları Düşer mi?</h3>
+                        <div class="collapse js-collapse-content" id="faq-3">
+                            <ul class="text--copy">
+                                <li>2019 yılı ilk yarısında Türkiye yerel seçimleri olacağı için kısa vadede kredi
+                                    faizlerinin gelişimi ile ilgili yorum yapmak zor. Ancak orta ve uzun vadede kredi
+                                    faiz oranlarının kademeli olarak düşmesini ve tekrar normalleşmesini bekliyoruz.
+                                </li>
+                                <li>Kredi faizlerinin aşağıya doğru seyretmesi piyasada krediye olan talebi
+                                    artıracaktır. Bu durum gerçekleşirse artan talep bankaların rekabet içerisine
+                                    girmesine ve kredi faizlerini bir miktar daha aşağı çekmesine sebep olabilir.
+                                </li>
+                                <li>Konut kredisi faiz oranlarının tekrar %1’in altına inmesi durumunda bugün aylık 8
+                                    ila 12 bin adet aralığına kadar düşen kredili konut alımlarının tekrar artarak 35
+                                    binin üzerine çıkmasını bekleyebiliriz.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-4">
+                        Kredi Faiz Oranları Neden Yükselir?</h3>
+                        <div class="collapse js-collapse-content" id="faq-4"><p class="text--copy"> Bankalar kredi
+                            verebilmek için mevduat toplayarak fon oluşturur. Uluslararası piyasada Türk Lirası'nın
+                            değer kaybetmesi ve mevduat oranlarının artması kredi fon maliyetlerinin yukarı çıkmasına ve
+                            kredi faiz oranlarının yükselmesine sebep olur. </p></div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-5">
+                        Kredi Faizi Nasıl Hesaplanır?</h3>
+                        <div class="collapse js-collapse-content" id="faq-5"><p class="text--copy"> Kredi faizi taksit
+                            dönemlerinde kalan anaparaya tekrar faiz uygulanarak hesaplanır. Sadece Faiz üzerine BSMV,
+                            KKDF vergiler konut kredisi hariç eklenir. Ödeme planı oluşturulurken ödemeler sabitlenerek
+                            aylık kredi taksit tutarları belirlenir. Detaylı bilgi almak ve hesaplama yapmak için <a
+                                    href="/ihtiyac-kredisi/h/kredi-odeme-plani-hesaplama">ödeme planı</a> sayfasını
+                            ziyaret edin. </p></div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-6">
+                        Gecikme Faizi Hesaplaması Nasıl Yapılır?</h3>
+                        <div class="collapse js-collapse-content" id="faq-6"><p class="text--copy"> Kredinin gecikmesi
+                            durumunda yasal takip durumları dâhil en fazla kullanılan kredinin kullanıldığı faizin %30
+                            fazla gecikme faizi olarak uygulanabilir. Örneğin kredi faizi %1 ise en fazla %1,30 gecikme
+                            faizi uygulanabilir. Detaylı bilgi almak ve hesaplama yapmak için <a
+                                    href="/ihtiyac-kredisi/h/gecikme-faizi-hesaplama">gecikme faizi</a> hesaplama
+                            sayfasını ziyaret edin. </p></div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-7">
+                        Kredi Yapılandırmak İçin Faizlerin Ne Kadar Düşmesi Gerekir?</h3>
+                        <div class="collapse js-collapse-content" id="faq-7"><p class="text--copy"> Kredi yapılandırma
+                            işlemini kazanç elde etmek için kullanılan kredi faizinden daha düşük bir faiz oranı ile
+                            yapılandırma yeterlidir. Konut kredisinde erken ödeme cezası olsa da 2 baz puanlık düşüş
+                            genel olarak yapılandırman kâr elde edilmesi için yeterlidir. Yapılandırma hesaplaması
+                            yapmak ve detaylı bilgi almak için <a href="/kredi-yapilandirma">kredi yapılandırma</a>
+                            sayfasını ziyaret edin. </p></div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-8">
+                        Kredi Erken Kapama ve Ara Ödeme Hesaplaması</h3>
+                        <div class="collapse js-collapse-content" id="faq-8"><p class="text--copy"> Bankalar kredi
+                            verebilmek için mevduat toplayarak fon oluşturur. Uluslararası piyasada Türk Lirası'nın
+                            değer kaybetmesi ve mevduat oranlarının artması kredi fon maliyetlerinin yukarı çıkmasına ve
+                            kredi faiz oranlarının yükselmesine sebep olur. </p></div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-9">
+                        Kredi Notu Kredi Faiz Oranını Etkiler mi?</h3>
+                        <div class="collapse js-collapse-content" id="faq-9"><p class="text--copy"> Bankalar tarafından
+                            kredi faiz oranı batık ve geç ödenen kredilerde göz önüne alınarak belirlenir. Bu sebeple
+                            kredi çalışmaları düzgün ve kredi borcu az olan yani <a href="/kredi-notu">kredi notu</a>
+                            iyi ve batık riski az olan kişilere daha uygun faiz oranı verilebilir. Ancak bankaların
+                            çoğunluğu genel olarak kredi notu göre değişen değil, standart bir faiz uygulama yoluna
+                            gidiyor </p></div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-10">
+                        Kredi Maliyet Oranı Nasıl Hesaplanır?</h3>
+                        <div class="collapse js-collapse-content" id="faq-10"><p class="text--copy"> Kredi maliyet
+                            oranı, kredi için katlanılan tahsis ücreti, vergiler, ipotek ve sigorta masraflarının faiz
+                            oranına dâhil edildiği yüzdesel bir orandır. Tüm masraflar dâhil edildiği için bankalar
+                            karşılaştırma için en doğru yoldur ve bankalar tarafından kullanıcıya bildirilmesi yasal bir
+                            zorunluluktur.. </p></div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-11">
+                        Mevduat Oranlarının Kredi Faiz Oranlarına Etkisi</h3>
+                        <div class="collapse js-collapse-content" id="faq-11"><p class="text--copy"> Bankalar kredi
+                            verebilmek için mevduat toplayarak fon oluşturur. Uluslararası piyasada Türk Lirası'nın
+                            değer kaybetmesi ve mevduat oranlarının artması kredi fon maliyetlerinin yukarı çıkmasına ve
+                            kredi faiz oranlarının yükselmesine sebep olur. </p></div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-12">
+                        Kredi Kartı Faizleri Nasıl Belirlenir?</h3>
+                        <div class="collapse js-collapse-content" id="faq-12"><p class="text--copy"> Kredi kartları için
+                            uygulanabilecek en yüksek faiz oranı Merkez Bankası (TCMB) tarafından 3 ayda bir açıklanan
+                            akdi ve gecikme faizleridir. Gecikme durumu dışında tüm işlemleri için ise akdi faiz
+                            uygulanabilir. Güncel akdi ve faiz oranları ulaşmak ve hesaplama yapmak için <a
+                                    href="/kredi-karti/h/gecikme-faizi-hesaplama">kredi kartı gecikme faizi</a>
+                            sayfasını ziyaret edin. </p></div>
+                    </div>
+                    <div class="accordion"><h3 class="accordion__title" data-toggle="collapse" data-target="#faq-13">
+                        Ticari Kredi Faiz Oranları</h3>
+                        <div class="collapse js-collapse-content" id="faq-13"><p class="text--copy"> Ticari kredi faiz
+                            oranları temelde bireysel kredi faiz oranları gibi belirlense de şirketin mali yapısına ve
+                            teminatlarına göre fazlaca farklılık gösterir. Güncel ticari kredi faiz oranlarına ulaşmak
+                            ve daha detaylı bilgi almak için <a href="/kobi-kredisi">ticari kredi faiz oranları</a>
+                            sayfasını ziyaret edin. </p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-3"><h2 class="h2">Örnek Kredi Maliyet Tablosu</h2></div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-bordered text--copy d-none d-sm-block">
+                    <tbody>
+                    <tr>
+                        <td>Vade</td>
+                        <td>Kredi Tutarı</td>
+                        <td>Yıllık Maliyet Oranı</td>
+                        <td>Toplam Maliyet</td>
+                        <td>Aylık Taksit Tutarı</td>
+                        <td>Kredi Masrafı</td>
+                    </tr>
+                    <tr>
+                        <td><strong>60 Ay</strong></td>
+                        <td><strong>15.000 TL</strong></td>
+                        <td><strong>% 24,00</strong></td>
+                        <td><strong>24.657 TL</strong></td>
+                        <td><strong>410 TL</strong></td>
+                        <td><strong>78 TL</strong></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7">Örnek kredi maliyet oranı 60 ay vade için hesaplanmıştır. Yıllık maliyet oranı
+                            hesaplanırken 78 TL kredi masrafı hesaba katılmış, kredi ile bağlantılı sigorta masrafları
+                            dahil edilmemiştir.
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered text--copy d-block d-sm-none">
+                    <tbody>
+                    <tr>
+                        <td>Vade</td>
+                        <td><strong>60 Ay</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Faiz Oranı Tipi</td>
+                        <td><strong>Sabit Faizli</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Kredi Tutarı</td>
+                        <td><strong>15.000 TL</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Yıllık Maliyet Oranı</td>
+                        <td><strong>% 24,00</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Toplam Maliyet</td>
+                        <td><strong>24.657 TL</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Aylık Taksit Tutarı</td>
+                        <td><strong>410 TL</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Kredi Masrafı</td>
+                        <td><strong>78 TL</strong></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Örnek kredi maliyet oranı 60 ay vade için hesaplanmıştır. Yıllık maliyet oranı
+                            hesaplanırken 78 TL kredi masrafı hesaba katılmış, kredi ile bağlantılı sigorta masrafları
+                            dahil edilmemiştir.
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 order-md-1">
+                <ul class="footer-list">
+                    <li class="footer-list__item"><a class="footer-list__link footer--copy" href="/kredi-hesaplama">Hesaplama
+                        Araçları</a></li>
+                    <li class="footer-list__item"><a class="footer-list__link footer--copy" href="/hakkimizda">Hesapkurdu
+                        Hakkında</a></li>
+                    <li class="footer-list__item"><a class="footer-list__link footer--copy"
+                                                     href="/bize-ulasin">İletişim</a></li>
+                    <li class="footer-list__item"><a class="footer-list__link footer--copy"
+                                                     href="/kosullar-ve-gizlilik">Gizlilik Politikası ve Kullanım
+                        Şartları </a></li>
+                    <li class="footer-list__item"><a class="footer-list__link footer--copy"
+                                                     href="/kisisel-verilerin-korunmasi-kanunu-hakkinda-bilgilendirme">Kişisel
+                        Verilerin Korunması </a></li>
+                    <li class="footer-list__item"><a class="footer-list__link footer--copy" href="/kariyer">Kariyer</a>
+                    </li>
+                    <li class="footer-list__item d-none" id="subscriptionButtonLi">
+                        <button id="subscriptionButton">Bildirimlere üye ol!</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-5 order-2 order-md-1 d-flex align-items-end"><p class="footer--copy"> Adres: İçerenköy
+                Mah., Değirmen Yolu Cad. Nuh Plaza 37/2 34752 Ataşehir/İstanbul <br/> MERSİS Numarası: 0577050290800014
+                <br/> Tel: 0212 911 12 12 E-posta: <a href="mailto:bilgi@hesapkurdu.com">bilgi@hesapkurdu.com</a></p>
+            </div>
+            <div class="col-md-3 order-md-1 offset-1"><a href="/"><img
+                    data-src="https://hesapkurdu.cubecdn.net/images/footer-logo.png" class="js-lazy img-responsive"
+                    alt="Hesapkurdu" title="Hesapkurdu"></a>
+                <ul class="footer-social-list">
+                    <li><a class="footer-social-list__link" href="https://www.facebook.com/hesapkurdu"
+                           alt="Facebook Hesapkurdu.com"><i class="footer-social-list__icon hk-icon--facebook"></i></a>
+                    </li>
+                    <li><a class="footer-social-list__link" href="https://twitter.com/HesapKurduCom"
+                           alt="Twitter Hesapkurdu.com"><i class="footer-social-list__icon hk-icon--twitter"></i></a>
+                    </li>
+                    <li><a class="footer-social-list__link" href="https://www.youtube.com/c/hesapkurdu"
+                           alt="Youtube Hesapkurdu.com"><i class="footer-social-list__icon hk-icon--youtube"></i></a>
+                    </li>
+                </ul>
+                <p class="footer--copy"> Copyright © 2019 - Konut Kredisi Com Tr Dan. A.Ş. Tüm Hakları Saklıdır. </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="js-modal-container"></div>
+<div id="js-scrollup" class="scrollup"><span class="hk-icon--scrollup hk-icon--3x"></span></div>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4Q484" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>
+     /* Google Tag Manager begin */ var dataLayer = [ {'HesapkurduVisitTicks':'22983606'} ]; (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-N4Q484'); /* Google Tag Manager end */
+</script>
+<script>
+     var viewStates = { chartData: [['Tarih','Piyasa Ortalaması','En Düşük Faiz Oranı', 'En Yüksek Faiz Oranı'],['1-1-2016',1.400000,1.300000,1.490000],['8-1-2016',1.395000,1.250000,1.490000],['15-1-2016',1.460000,1.410000,1.490000],['22-1-2016',1.404000,1.340000,1.480000],['29-1-2016',1.405000,1.340000,1.480000],['5-2-2016',1.380000,1.330000,1.420000],['12-2-2016',1.382500,1.330000,1.420000],['19-2-2016',1.4116666666666666666666666667,1.330000,1.490000],['26-2-2016',1.4133333333333333333333333333,1.330000,1.490000],['4-3-2016',1.410000,1.330000,1.490000],['11-3-2016',1.410000,1.330000,1.490000],['18-3-2016',1.4133333333333333333333333333,1.380000,1.490000],['25-3-2016',1.4773684210526315789473684211,1.270000,1.840000],['1-4-2016',1.4631578947368421052631578947,1.250000,1.840000],['8-4-2016',1.4631578947368421052631578947,1.250000,1.840000],['15-4-2016',1.4631578947368421052631578947,1.250000,1.840000],['22-4-2016',1.4505882352941176470588235294,1.250000,1.840000],['29-4-2016',1.4470588235294117647058823529,1.250000,1.840000],['6-5-2016',1.4470588235294117647058823529,1.250000,1.840000],['13-5-2016',1.4358823529411764705882352941,1.240000,1.840000],['20-5-2016',1.4394117647058823529411764706,1.240000,1.840000],['27-5-2016',1.4382352941176470588235294118,1.240000,1.840000],['3-6-2016',1.4341176470588235294117647059,1.240000,1.840000],['10-6-2016',1.4311764705882352941176470588,1.240000,1.840000],['17-6-2016',1.4147058823529411764705882353,1.220000,1.840000],['24-6-2016',1.3911764705882352941176470588,1.220000,1.820000],['1-7-2016',1.3864705882352941176470588235,1.200000,1.820000],['8-7-2016',1.3864705882352941176470588235,1.200000,1.820000],['15-7-2016',1.390000,1.200000,1.820000],['22-7-2016',1.3923529411764705882352941176,1.230000,1.820000],['29-7-2016',1.3911764705882352941176470588,1.230000,1.820000],['5-8-2016',1.3911764705882352941176470588,1.230000,1.820000],['12-8-2016',1.3958823529411764705882352941,1.230000,1.820000],['19-8-2016',1.3923529411764705882352941176,1.200000,1.820000],['26-8-2016',1.4141176470588235294117647059,1.200000,1.820000],['2-9-2016',1.4217647058823529411764705882,1.200000,1.820000],['7-9-2016',1.4305882352941176470588235294,1.200000,1.750000],['9-9-2016',1.4166666666666666666666666667,1.180000,1.750000],['16-9-2016',1.4166666666666666666666666667,1.180000,1.750000],['23-9-2016',1.4183333333333333333333333333,1.180000,1.750000],['30-9-2016',1.4116666666666666666666666667,1.180000,1.750000],['7-10-2016',1.4111111111111111111111111111,1.180000,1.750000],['14-10-2016',1.4222222222222222222222222222,1.180000,1.750000],['21-10-2016',1.4222222222222222222222222222,1.180000,1.750000],['28-10-2016',1.4177777777777777777777777778,1.180000,1.750000],['4-11-2016',1.4116666666666666666666666667,1.180000,1.750000],['11-11-2016',1.4027777777777777777777777778,1.180000,1.750000],['18-11-2016',1.3894444444444444444444444444,1.140000,1.750000],['25-11-2016',1.3861111111111111111111111111,1.130000,1.750000],['2-12-2016',1.3827777777777777777777777778,1.140000,1.750000],['9-12-2016',1.3671428571428571428571428571,1.140000,1.750000],['16-12-2016',1.3671428571428571428571428571,1.140000,1.750000],['23-12-2016',1.378000,1.150000,1.750000],['30-12-2016',1.3795238095238095238095238095,1.150000,1.750000],['6-1-2017',1.3809090909090909090909090909,1.150000,1.750000],['13-1-2017',1.3809090909090909090909090909,1.150000,1.750000],['20-1-2017',1.3809090909090909090909090909,1.150000,1.750000],['27-1-2017',1.3836363636363636363636363636,1.150000,1.750000],['3-2-2017',1.3859090909090909090909090909,1.150000,1.750000],['10-2-2017',1.3859090909090909090909090909,1.150000,1.750000],['17-2-2017',1.3995454545454545454545454545,1.150000,1.750000],['24-2-2017',1.3852380952380952380952380952,1.150000,1.750000],['3-3-2017',1.3852380952380952380952380952,1.150000,1.750000],['10-3-2017',1.3877272727272727272727272727,1.150000,1.750000],['17-3-2017',1.3271428571428571428571428571,1.150000,1.740000],['24-3-2017',1.3345454545454545454545454545,1.150000,1.620000],['31-3-2017',1.3313636363636363636363636364,1.110000,1.740000],['7-4-2017',1.3304545454545454545454545455,1.110000,1.780000],['14-4-2017',1.3413636363636363636363636364,1.150000,1.780000],['21-4-2017',1.345000,1.150000,1.780000],['28-4-2017',1.3468181818181818181818181818,1.150000,1.780000],['5-5-2017',1.3804545454545454545454545455,1.150000,1.780000],['12-5-2017',1.3840909090909090909090909091,1.130000,1.780000],['19-5-2017',1.3863636363636363636363636364,1.120000,1.780000],['26-5-2017',1.400000,1.130000,1.780000],['2-6-2017',1.3909090909090909090909090909,1.150000,1.780000],['9-6-2017',1.3890909090909090909090909091,1.150000,1.780000],['16-6-2017',1.3913636363636363636363636364,1.130000,1.780000],['23-6-2017',1.3686363636363636363636363636,1.130000,1.780000],['30-6-2017',1.3763636363636363636363636364,1.130000,1.780000],['7-7-2017',1.3818181818181818181818181818,1.130000,1.780000],['14-7-2017',1.3772727272727272727272727273,1.130000,1.780000],['21-7-2017',1.3768181818181818181818181818,1.130000,1.780000],['28-7-2017',1.3813636363636363636363636364,1.130000,1.780000],['4-8-2017',1.4279166666666666666666666667,1.160000,1.780000],['11-8-2017',1.4316666666666666666666666667,1.160000,1.780000],['18-8-2017',1.433750,1.130000,1.780000],['25-8-2017',1.4768421052631578947368421053,1.130000,1.780000],['1-9-2017',1.4768421052631578947368421053,1.130000,1.780000],['8-9-2017',1.4805555555555555555555555556,1.130000,1.780000],['15-9-2017',1.5341176470588235294117647059,1.130000,2.290000],['22-9-2017',1.490000,1.130000,1.780000],['29-9-2017',1.6209090909090909090909090909,1.290000,2.290000],['6-10-2017',1.4579310344827586206896551724,1.090000,2.290000],['13-10-2017',1.4572413793103448275862068966,1.090000,2.290000],['20-10-2017',1.4679310344827586206896551724,1.180000,2.290000],['27-10-2017',1.4762068965517241379310344828,1.180000,2.290000],['3-11-2017',1.4782758620689655172413793103,1.180000,2.290000],['10-11-2017',1.4710714285714285714285714286,1.180000,2.290000],['17-11-2017',1.4785185185185185185185185185,1.180000,2.290000],['24-11-2017',1.5066666666666666666666666667,1.180000,2.290000],['1-12-2017',1.4811538461538461538461538462,1.180000,1.780000],['8-12-2017',1.5248148148148148148148148148,1.230000,2.290000],['15-12-2017',1.527037037037037037037037037,1.230000,2.290000],['22-12-2017',1.5418518518518518518518518519,1.230000,2.290000],['29-12-2017',1.5439285714285714285714285714,1.230000,2.290000],['5-1-2018',1.5535714285714285714285714286,1.230000,2.290000],['12-1-2018',1.5592857142857142857142857143,1.230000,2.290000],['19-1-2018',1.5582142857142857142857142857,1.290000,2.290000],['26-1-2018',1.5664285714285714285714285714,1.290000,2.290000],['2-2-2018',1.5803571428571428571428571429,1.290000,2.290000],['9-2-2018',1.5803571428571428571428571429,1.290000,2.290000],['16-2-2018',1.5796428571428571428571428571,1.290000,2.290000],['23-2-2018',1.5807142857142857142857142857,1.290000,2.390000],['2-3-2018',1.585000,1.290000,2.390000],['9-3-2018',1.5910714285714285714285714286,1.290000,2.390000],['16-3-2018',1.5964285714285714285714285714,1.290000,2.390000],['23-3-2018',1.5953571428571428571428571429,1.290000,2.390000],['30-3-2018',1.5992592592592592592592592593,1.290000,2.390000],['6-4-2018',1.5825925925925925925925925926,1.290000,2.390000],['13-4-2018',1.597037037037037037037037037,1.290000,2.390000],['20-4-2018',1.5992592592592592592592592593,1.290000,2.390000],['27-4-2018',1.5977777777777777777777777778,1.290000,2.390000],['4-5-2018',1.6121428571428571428571428571,1.290000,2.390000],['11-5-2018',1.6214285714285714285714285714,1.290000,2.390000],['18-5-2018',1.6264285714285714285714285714,1.290000,2.390000],['25-5-2018',1.662500,1.290000,2.390000],['1-6-2018',1.7042857142857142857142857143,1.290000,2.390000],['8-6-2018',1.7407142857142857142857142857,1.450000,2.150000],['15-6-2018',1.807500,1.450000,2.590000],['22-6-2018',1.8589285714285714285714285714,1.450000,2.890000],['29-6-2018',1.8835714285714285714285714286,1.450000,2.890000],['6-7-2018',1.8960714285714285714285714286,1.450000,2.890000],['13-7-2018',1.9235714285714285714285714286,1.450000,2.890000],['20-7-2018',1.927500,1.450000,2.890000],['27-7-2018',1.9557142857142857142857142857,1.450000,2.890000],['3-8-2018',1.9882142857142857142857142857,1.450000,2.890000],['10-8-2018',2.097500,1.630000,2.890000],['17-8-2018',2.3235714285714285714285714286,1.850000,2.930000],['24-8-2018',2.3271428571428571428571428571,1.850000,2.930000],['31-8-2018',2.5467857142857142857142857143,1.850000,3.300000],['7-9-2018',2.685000,1.970000,3.450000],['14-9-2018',2.7428571428571428571428571429,2.050000,3.450000],['21-9-2018',2.8578571428571428571428571429,2.310000,3.470000],['28-9-2018',2.8882142857142857142857142857,2.450000,3.470000],['5-10-2018',2.8921428571428571428571428571,2.450000,3.470000],['12-10-2018',2.9221428571428571428571428571,2.450000,3.470000],['19-10-2018',2.8971428571428571428571428571,2.450000,3.470000],['26-10-2018',2.8757142857142857142857142857,2.450000,3.470000],['2-11-2018',2.8642857142857142857142857143,2.450000,3.470000],['9-11-2018',2.812500,2.400000,3.470000],['16-11-2018',2.7746428571428571428571428571,2.350000,3.470000],['23-11-2018',2.7560714285714285714285714286,2.230000,3.470000],['30-11-2018',2.7357142857142857142857142857,2.250000,3.550000],['7-12-2018',2.6935714285714285714285714286,2.220000,3.550000],['14-12-2018',2.6535714285714285714285714286,2.210000,3.550000],['21-12-2018',2.6332142857142857142857142857,1.990000,3.400000],['28-12-2018',2.6221428571428571428571428571,1.990000,3.400000],['4-1-2019',2.6021428571428571428571428571,1.990000,3.400000],['11-1-2019',2.5853571428571428571428571429,1.990000,3.400000],['18-1-2019',2.530000,1.990000,3.400000],['25-1-2019',2.5096428571428571428571428571,1.990000,3.400000],['1-2-2019',2.4382142857142857142857142857,1.890000,3.400000],['8-2-2019',1.890000,1.890000,1.890000],['15-2-2019',1.890000,1.890000,1.890000],['22-2-2019',1.890000,1.890000,1.890000],['1-3-2019',1.890000,1.890000,1.890000],['8-3-2019',1.890000,1.890000,1.890000],['15-3-2019',1.890000,1.890000,1.890000],['22-3-2019',2.0835714285714285714285714286,1.520000,3.200000],['29-3-2019',2.1218518518518518518518518519,1.520000,3.200000],['5-4-2019',2.1182142857142857142857142857,1.530000,3.200000],['12-4-2019',2.1471428571428571428571428571,1.530000,3.200000],['19-4-2019',2.1857142857142857142857142857,1.650000,3.200000],['26-4-2019',2.2382142857142857142857142857,1.690000,3.200000],['3-5-2019',2.2337037037037037037037037037,1.730000,3.200000],['10-5-2019',2.2471428571428571428571428571,1.730000,3.200000],['17-5-2019',2.2878571428571428571428571429,1.730000,3.200000],['24-5-2019',2.3678571428571428571428571429,1.890000,3.200000],['31-5-2019',2.3528571428571428571428571429,1.890000,3.200000],['7-6-2019',2.3528571428571428571428571429,1.890000,3.200000],['14-6-2019',2.3121428571428571428571428571,1.890000,3.200000],['21-6-2019',2.3058620689655172413793103448,1.890000,3.200000],['28-6-2019',2.2465517241379310344827586207,1.750000,3.200000],['5-7-2019',2.2113793103448275862068965517,1.750000,3.200000],['12-7-2019',2.1810344827586206896551724138,1.750000,3.200000],['19-7-2019',2.1786206896551724137931034483,1.750000,3.200000],['26-7-2019',2.1396551724137931034482758621,1.690000,3.200000]], pLId: '31', mLId: '6', aLId: '2', pLAmount: 10000, mLAmount: 100000, aLAmount: 40000, pLMaturity: 60, mLMaturity: 10, aLMaturity: 60 }; var assetConfig = { onScroll: [ { type : 'script', url : 'https://hesapkurdu.cubecdn.net/scripts/shared-chart-bundle.js?v=186A', }, { type : 'script', url : 'https://hesapkurdu.cubecdn.net/scripts/loan-interest-rate-index-on-scroll-bundle.js?v=186A', } ], preLoad: [ { type : 'style', url: 'https://hesapkurdu.cubecdn.net/styles/loan-interest-rate/index.css?v=186A', }, { type : 'script', url : 'https://hesapkurdu.cubecdn.net/scripts/loan-interest-rate-index-bundle.js?v=186A', }, { type : 'script', url : 'https://hesapkurdu.cubecdn.net/scripts/shared-menu-bundle.js?v=186A', } ] };
+</script>
+<script src="https://hesapkurdu.cubecdn.net/scripts/shared-asset-loader-bundle.js?v=186A"></script>
+<script src="https://hesapkurdu.cubecdn.net/scripts/jquery.min.js?v=186A" defer></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d42ae35-e8d3-482c-a8d8-392f8cbc637d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/retrieve_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Doviz_Cek.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/.idea/Oyk2019Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/.idea/runConfigurations/mantiksal_ifadeler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/deneme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/firstproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/game/Actor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/game/Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/game/Level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/game/NPC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/game/Player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/game/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/phone_and_address_notes/People.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/phone_and_address_notes/Phone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/phone_and_address_notes/Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/phone_and_address_notes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/phone_and_address_notes/phone_directory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/seek_and_destroy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/siniflar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/bin/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/bin/activate.csh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/bin/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/bin/python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/bin/python3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/bin/python3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/excluded_to_git" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/lib64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/controllib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/csv_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/file_operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/ifadeler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/keep_password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/keep_password_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/line_to_line_read_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/mylibs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/mylibs/denemelib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Oyk2019Python/venv/samples/standart_inputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OykPython/SavePassword.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parola_saklama_hilal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../trackLog-2019-Jul-15_15-22-47.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retrieve_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/retrieve_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venv/data.csv" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ING</find>
+      <find>&lt;ul class=&quot;main-nav__sub-nav main-nav__sub-nav--nested main-nav__sub-nav--closed js-sub-nav&quot;</find>
+      <find>data-table</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/venv/retrieve_data.py" />
+        <option value="$PROJECT_DIR$/xxx.html" />
+        <option value="$PROJECT_DIR$/venv/Doviz_Cek.py" />
+        <option value="$PROJECT_DIR$/venv/data.csv" />
+        <option value="$PROJECT_DIR$/retrieve_data.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/CreditAndBankRateProject.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="15" />
+    <option name="width" value="1196" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CreditAndBankRateProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CreditAndBankRateProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CreditAndBankRateProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CreditAndBankRateProject" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../notlar" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="retrieve_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CreditAndBankRateProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/retrieve_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.retrieve_data" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d42ae35-e8d3-482c-a8d8-392f8cbc637d" name="Default Changelist" comment="" />
+      <created>1564666341701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564666341701</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="-1" width="1926" height="1057" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14918292" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49101123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2977528" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32921347" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/lib/python3.6/csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Doviz_Cek.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/requests/adapters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="531" lean-forward="true" selection-start-line="531" selection-end-line="531" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retrieve_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="83" column="78" selection-start-line="83" selection-start-column="78" selection-end-line="83" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="653" column="40" selection-start-line="653" selection-start-column="30" selection-end-line="653" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
